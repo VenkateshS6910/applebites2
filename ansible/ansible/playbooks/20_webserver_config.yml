@@ -1,0 +1,9 @@
+---
+- name: Configure GCP webserver(s)
+  hosts: webservers
+  gather_facts: no
+  become: yes
+  become_method: sudo
+
+  roles:
+    - role: httpd
