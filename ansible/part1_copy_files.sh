@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Constants - CHANGE ME!
-readonly PROJECT='<project_id>'
+readonly PROJECT='busyqa'
 readonly ZONE='us-central1-a'
 
 

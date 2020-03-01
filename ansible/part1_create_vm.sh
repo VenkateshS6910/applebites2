@@ -2,7 +2,7 @@
 #
 
 # Constants - CHANGE ME!
-readonly PROJECT='<project_id>'
+readonly PROJECT='busyqa'
 readonly SERVICE_ACCOUNT='<service_account>'
 readonly ZONE='us-central1-a'
 
