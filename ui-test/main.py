@@ -20,7 +20,6 @@ browser = webdriver.Chrome(chrome_options=chrome_options)
 @app.route("/main/<string:IP>")
 def main(IP):
 
-    try:
         ## Sanity check on Home page of the PHP app
         browser.get("http://%s:80/index.php" % IP)
         home_page = browser.find_element_by_xpath("/html/body/div/article").text
@@ -52,6 +51,3 @@ def main(IP):
 
         browser.save_screenshot("spooky.png")
         return 'All Tests done.....'
-
-    finally:
-        browser.close()
