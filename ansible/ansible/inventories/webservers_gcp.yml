@@ -9,5 +9,5 @@ groups:
   webservers: "'web-' in name"
 scopes:
   - https://www.googleapis.com/auth/compute
-service_account_file: ~/Documents/Personal/gcp_creds/ansible-gce-demo-a0dbb4ac2ff7.json
+service_account_file: /home/jamunakan/busyqa-a089eef15c9b.json
 auth_kind: serviceaccount
