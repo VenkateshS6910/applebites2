@@ -3,7 +3,7 @@
 
 # Constants - CHANGE ME!
 readonly PROJECT='busyqa'
-readonly SERVICE_ACCOUNT='<service_account>'
+readonly SERVICE_ACCOUNT='busyqa-crm@busyqa.iam.gserviceaccount.com'
 readonly ZONE='us-central1-a'
 
 # Create GCE VM with disk storage
